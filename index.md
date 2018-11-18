@@ -57,8 +57,10 @@ Implementations from our library were included in BoringSSL to replace existing 
 <td class="bibtexitem">
 Jade Philipoom.
  Correct-by-construction finite field arithmetic in coq.
- Master's thesis, Massachusetts Institute of Technology, 7 2018.
-[&nbsp;<a href="jadep_bib.html#mastersthesis">bib</a>&nbsp;]
+ Master's thesis, Massachusetts Institute of Technology, February
+  2018.
+[&nbsp;<a href="jadep_bib.html#mastersthesis">bib</a>&nbsp;| 
+<a href="https://people.csail.mit.edu/jadep/papers/meng_thesis.pdf">.pdf</a>&nbsp;]
 
 </td>
 </tr>
