@@ -19,11 +19,10 @@
   	<style type="text/css">
 		div.banner{text-align: center}
 		div.jadep{height: 90px; line-height: 90px; font-size: 250%}
-		span {display: inline-block; vertical-align: middle; line-height: normal}	
-		div.picture{display: inline-block; vertical-align: middle; width: 25%; text-align:center; min-width:150px}
-        div.column{display: inline-block; vertical-align: top; width:70%;}
-        div.content{padding: 30px 0}	
-        a{color: gray}
+		span {display: inline-block; vertical-align: middle; line-height: normal}
+		div.content{padding: 30px 0}	
+		div.contact-info{text-align: center}
+		a.lnk{color: gray}
   	</style>
   	<!--[if lt IE 9]>
     	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -35,10 +34,10 @@
 		<div class="jadep">
 			<span">Jade Philipoom</span>
 		</div>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		    <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav w-100 justify-content-center">
-		    <li class="nav-item active">
+		    <li class="nav-item">
 		        <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
@@ -47,21 +46,16 @@
             <li class="nav-item">
 		        <a class="nav-link" href="resume.html">Resume</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
 		        <a class="nav-link" href="contact.html">Contact</a>
             </li>
             </ul>
             </div>
 		</nav>	
-	</div>	
-	<div class="content">
-        <div class=picture style="float:left">
-            <img src="media/placeholder.jpg" style="width:90%;vertical-align:middle"/>
-        </div>
-        <div class=column style="float:left">
-            <p>I’m a PhD student in MIT’s Programming Languages and Verification group (<a href="plv.csail.mit.edu">PLV</a>). I’m currently in the exploratory phase of working on lattice-based crypto in the proof assistant Coq. I’m also continuing my longstanding work with <a href="https://github.com/mit-plv/fiat-crypto">fiat-crypto</a>, another Coq project which generates verified code for ECC primitives. Both of these projects amount to using the proof assistant to guatantee that pieces of cryptography code actually implement their algorithmic specifications.</p>
-            <p>My general areas of interest include distributed systems and computer security, particularly in relation to verification. I’m also interested in how to effectively introduce people to programming, both generally and for specialized contexts like verification.</p>
-        </div>
-    </div>
-</div>	
+	</div>
+	<div class="content contact-info">	
+		<p><a href="mailto:jadep@mit.edu" class="lnk">jadep@mit.edu</a></p>
+		<p><a href="https://github.com/jadephilipoom" class="lnk">GitHub</a></p>
+	</div>
+</body>
 </html>
