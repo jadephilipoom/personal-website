@@ -8,35 +8,174 @@
   	<!-- Latest compiled and minified CSS -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="personal-website.css">
+    <link rel="stylesheet" type="text/css" href="resume.css">
 </head>
 
 <body>
-<div class="container-fluid">
-	<div class="banner">	
-		<div class="jadep">
-			<span">Jade Philipoom</span>
-		</div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-white">
-		    <!--div class="collapse navbar-collapse" id="navbarNav"-->
-            <ul class="navbar-nav w-100 justify-content-center">
-		    <li class="nav-item">
-		        <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-		        <a class="nav-link" href="publications.html">Publications</a>
-            </li>
-            <li class="nav-item active">
-		        <a class="nav-link" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-		        <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            </ul>
-            <!--/div-->
-		</nav>	
-	</div>
-	<div class="content">	
-		<p><a href="media/resume.pdf">Resume</a></p>
-	</div>
+  <div class="container-fluid">
+    <div class="banner">	
+      <div class="jadep">
+        <span>Jade Philipoom</span>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <!--div class="collapse navbar-collapse" id="navbarNav"-->
+        <ul class="navbar-nav w-100 justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <!--/div-->
+      </nav>	
+    </div>
+    <div class="content">	
+      <div class="section">
+        <div class="sectiontitle">Education</div>
+        <div class="school item">Massachusetts Institute of Technology</div>
+        <div class="degree item">
+          <div class="degreename left">PhD, Computer Science</div>
+          <div class="degreeinfo right">begun September 2018</div>
+        </div>
+        <div class="degree item">
+          <div class="degreename left">MEng, Computer Science</div>
+          <div class="degreeinfo right">February 2018, GPA 5.0/5</div>
+        </div>
+        <div class="degree item">
+          <div class="degreename left">BSc, Computer Science (Mathematics minor)</div>
+          <div class="degreeinfo right">June 2017, GPA 4.9/5</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="sectiontitle">Experience</div>
+        <div class="job item">
+          <div class="jobname left">
+            <span class="jobcompany">Google, Inc</span>
+            <span class="jobtitle">Software Engineering Intern</span>
+          </div>
+          <div class="jobdate right">Spring 2018</div>
+          <div class="jobdescr">Formally verified subroutines of cryptographic code for a custom 2FA device</div>
+          <div class="jobbul">Modified an MIT research prototype to generate a specialized ISA</div>
+          <div class="jobbul">Discovered a new proof for previously-unjustified optimization of a common algorithm</div>
+        </div>
+        <div class="job item">
+          <div class="jobname left">
+            <span class="jobcompany">Amazon</span>
+            <span class="jobtitle">Research Scientist Intern</span>
+          </div>
+          <div class="jobdate right">Summer 2017</div>
+          <div class="jobdescr">Analyzed security properties of AWS Key Management Service</div>
+          <div class="jobbul">Set up automatic dataflow analysis to detect key leaks and wrote a model of the system’s cryptographic steps</div>
+        </div>
+        <div class="job item">
+          <div class="jobname left">
+            <span class="jobcompany">MIT Electrical Engineering and Computer Science</span>
+            <span class="jobtitle">Teaching Assistant</span>
+          </div>
+          <div class="jobdate right">Spring 2017</div>
+          <div class="jobdescr">Assisted for "Fundamentals of Programming", a sophomore-level programming course</div>
+          <div class="jobbul">Helped design, write, and test assignments; assisted students at office hours; coordinated with course staff</div>
+        </div>
+        <div class="job item">
+          <div class="jobname left">
+            <span class="jobcompany">MIT CSAIL</span>
+            <span class="jobtitle">Undergraduate Researcher</span>
+          </div>
+          <div class="jobdate right">Fall 2015-Fall 2016</div>
+          <div class="jobdescr">Contributed to the design and development of a verified cryptography implementation</div>
+          <div class="jobbul">Synthesized efficient elliptic curve cryptography code in the Coq proof assistant along with a 4-person team</div>
+        </div>
+        <div class="job item">
+          <div class="jobname left">
+            <span class="jobcompany">Google, Inc</span>
+            <span class="jobtitle">Engineering Practicum Intern</span>
+          </div>
+          <div class="jobdate right">Summer 2015</div>
+          <div class="jobdescr">Designed, built, and extended a framework to manage server monitoring information</div>
+          <div class="jobbul">Implemented a new system to dynamically read configuration data from unspecified protocol buffers</div>
+        </div>
+        <div class="job item">
+          <div class="jobname left">
+            <span class="jobcompany">Shell Technology Centre</span>
+            <span class="jobtitle">Software Engineering Intern</span>
+          </div>
+          <div class="jobdate right">Summer 2014</div>
+          <div class="jobdescr">Designed and developed multiple data visualization tools to accompany left a research project</div>
+          <div class="jobbul">Proposed, designed, and produced JavaScript animation module to improve performance on slow connections</div>
+        </div>
+        <div class="job item">
+          <div class="jobname left">
+            <span class="jobcompany">MIT Media Lab</span>
+            <span class="jobtitle">Undergraduate Researcher</span>
+          </div>
+          <div class="jobdate right">Spring 2014</div>
+          <div class="jobdescr">Created maps for StreetScore, an interactive display for data about street safety (streetscore.media.mit.edu)</div>
+          <div class="jobbul">Served custom map tiles using raw OpenStreetMap geodata and open-source geo tools such as Mapnik</div>
+        </div>
+        <div class="job item">
+          <div class="jobname left">
+            <span class="jobcompany">MITRE Corporation</span>
+            <span class="jobtitle">Software Engineering Intern</span>
+          </div>
+          <div class="jobdate right">Summer 2012, 2013</div>
+          <div class="jobdescr">(2013) With a team, developed a system using Python and PostgreSQL to collect network security data</div>
+          <div class="jobdescr">(2012) Created a database for U.S. Central Command to keep track of a complex inventory system</div>
+          <div class="jobbul">Project saved millions of dollars annually, earning the MITRE Spot Award (rarely awarded to interns)</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="sectiontitle">Awards and Publications</div>
+        <div class="award item">
+          <div class="awardname left">NSF Graduate Research Fellowship</div>
+          <div class="awardyear right">2018</div>
+        </div>
+        <div class="award item">
+          <div class="awardname left">First Place Charles and Jennifer Johnson Computer Science MEng Thesis Award</div>
+          <div class="awardyear right">2018</div>
+        </div>
+        <div class="award item">
+          <div class="awardname left">Anna Pogosyants UROP Prize for Outstanding Undergraduate Research Project in Computer Science</div>
+          <div class="awardyear right">2017</div>
+        </div>
+        <div class="award item">
+          <div class="awardname left">National Merit Scholarship</div>
+          <div class="awardyear right">2013</div>
+        </div>
+        <div class="award item">
+          <div class="awardname left">MITRE Spot Award</div>
+          <div class="awardyear right">2012</div>
+        </div>
+
+        <table class="publications">
+          <tr valign="top">
+            <td>
+              Andres Erbsen, Jade Philipoom, Jason Gross, Robert Sloan, and Adam Chlipala. Simple high-level code for cryptographic arithmetic – with proofs, without compromises. In <em>Proceedings of the <a href="https://www.ieee-security.org/TC/SP2019/">40th IEEE Symposium on Security and Privacy (S&amp;P’19)</a></em>, May 2019. [ <a href="https://people.csail.mit.edu/jadep/papers/fiat-crypto-ieee-sp.pdf">.pdf</a> ]
+            </td>
+          </tr>
+          <td>
+            Jade Philipoom. Correct-by-construction finite field arithmetic in coq. Master’s thesis, Massachusetts Institute of Technology, February 2018. [ <a href="https://people.csail.mit.edu/jadep/papers/meng_thesis.pdf">.pdf</a> ]
+          </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="section">
+        <div class="sectiontitle">Programming Languages</div>
+        <div class="language">Proficient - Coq, Python, Java, git, Javascript</div>
+        <div class="language">Working Knowledge - Go, C, LaTeX, HTML/CSS, C++, x86 assembly</div>
+      </div>
+      <p><a href="media/resume.pdf">Resume as PDF</a></p>
+
+
+    </div>
 </body>
 </html>

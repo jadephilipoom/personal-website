@@ -1,0 +1,55 @@
+div.section{
+  padding-bottom: 3%;
+}
+div.sectiontitle{
+  font-size: 24pt;
+  padding-bottom: 0.5%;
+}
+div.item{
+  display:inline-block;
+  width: 100%;
+}
+div.left{
+  float: left;
+  width: 70%;
+}
+div.right{
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+.school{
+  font-size: 14pt;
+  font-weight: bold;
+}
+.degree{
+  font-size: 13pt;
+  padding-left: 2%;
+}
+.job{
+  padding-bottom:10pt;
+}
+.jobcompany{
+  font-size: 14pt;
+  font-weight: bold;
+}
+.jobtitle{
+  font-style: italic;
+}
+.awardname{
+  font-weight: bold;
+  padding-bottom: 0.5%;
+}
+.language{
+  font-size: 14pt;
+}
+div.jobdescr{
+  display: inline-block;
+  width:100%;
+  padding-left: 10pt;
+}
+div.jobbul{
+  display: inline-block;
+  width:100%;
+  padding-left: 10pt;
+}
