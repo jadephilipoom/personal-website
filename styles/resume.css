@@ -1,55 +1,59 @@
-div.section{
+.content {
+  text-align: left;
+}
+
+div.section {
   padding-bottom: 3%;
 }
-div.sectiontitle{
+div.sectiontitle {
   font-size: 24pt;
   padding-bottom: 0.5%;
 }
-div.item{
-  display:inline-block;
+div.item {
+  display: inline-block;
   width: 100%;
 }
-div.left{
+div.left {
   float: left;
   width: 70%;
 }
-div.right{
+div.right {
   float: right;
   width: 30%;
   text-align: right;
 }
-.school{
+.school {
   font-size: 14pt;
   font-weight: bold;
 }
-.degree{
+.degree {
   font-size: 13pt;
   padding-left: 2%;
 }
-.job{
-  padding-bottom:10pt;
+.job {
+  padding-bottom: 10pt;
 }
-.jobcompany{
+.jobcompany {
   font-size: 14pt;
   font-weight: bold;
 }
-.jobtitle{
+.jobtitle {
   font-style: italic;
 }
-.awardname{
+.awardname {
   font-weight: bold;
   padding-bottom: 0.5%;
 }
-.language{
+.language {
   font-size: 14pt;
 }
-div.jobdescr{
+div.jobdescr {
   display: inline-block;
-  width:100%;
+  width: 100%;
   padding-left: 10pt;
 }
-div.jobbul{
+div.jobbul {
   display: inline-block;
-  width:100%;
+  width: 100%;
   padding-left: 10pt;
 }

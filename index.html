@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  	<meta charset="utf-8" />
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  	<title>Jade Philipoom</title>
-  	<!-- Latest compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
-  	<link rel="stylesheet" type="text/css" href="personal-website.css">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Jade Philipoom</title>
+    <link rel="stylesheet" type="text/css" href="styles/personal-website.css" />
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+  </head>
 
-<body>
-<div class="container-fluid">
-	<div class="banner">	
-		<div class="jadep">
-			<span">Jade Philipoom</span>
-		</div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <ul class="navbar-nav w-100 justify-content-center">
-		    <li class="nav-item active">
-		        <a class="nav-link" href="index.html">Home</a>
+  <body>
+    <div class="body">
+      <div class="banner">
+        <div class="jadep">Jade Philipoom</div>
+        <nav>
+          <ul class="navbar">
+            <li class="active">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-		        <a class="nav-link" href="publications.html">Publications</a>
+            <li>
+              <a class="nav-link" href="publications.html">Publications</a>
             </li>
-            <li class="nav-item">
-		        <a class="nav-link" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-		        <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            </ul>
-            <!--/div-->
-		</nav>	
-	</div>	
-	<div class="content row">
-        <div class="col-sm-4 picture">
-            <img src="media/me.jpg" style="width:90%;vertical-align:middle"/>
+            <li><a class="nav-link" href="resume.html">Resume</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <div class="picture"><img src="media/me.jpg" /></div>
+        <div class="desc">
+          <p>
+            I’m a PhD student in MIT’s Programming Languages and Verification
+            group (<a href="plv.csail.mit.edu">PLV</a>). I’m currently in the
+            exploratory phase of working on lattice-based crypto in the proof
+            assistant Coq. I’m also continuing my longstanding work with
+            <a href="https://github.com/mit-plv/fiat-crypto">fiat-crypto</a>,
+            another Coq project which generates verified code for ECC
+            primitives. Both of these projects amount to using the proof
+            assistant to guatantee that pieces of cryptography code actually
+            implement their algorithmic specifications.
+          </p>
+          <p>
+            My general areas of interest include distributed systems and
+            computer security, particularly in relation to verification. I’m
+            also interested in how to effectively introduce people to
+            programming, both generally and for specialized contexts like
+            verification.
+          </p>
         </div>
-        <div class="col-sm-8 column">
-            <p>I’m a PhD student in MIT’s Programming Languages and Verification group (<a href="plv.csail.mit.edu">PLV</a>). I’m currently in the exploratory phase of working on lattice-based crypto in the proof assistant Coq. I’m also continuing my longstanding work with <a href="https://github.com/mit-plv/fiat-crypto">fiat-crypto</a>, another Coq project which generates verified code for ECC primitives. Both of these projects amount to using the proof assistant to guatantee that pieces of cryptography code actually implement their algorithmic specifications.</p>
-            <p>My general areas of interest include distributed systems and computer security, particularly in relation to verification. I’m also interested in how to effectively introduce people to programming, both generally and for specialized contexts like verification.</p>
-        </div>
+      </div>
     </div>
-</div>	
+  </body>
 </html>
