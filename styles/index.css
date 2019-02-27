@@ -1,0 +1,28 @@
+@media screen and (min-width: 450px) {
+  .picture {
+    max-width: 30%;
+  }
+  .desc {
+    max-width: 60%;
+  }
+}
+
+.picture {
+  display: inline-block;
+  vertical-align: top;
+  min-width: 150px;
+  padding: 0 30px 30px 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.desc {
+  display: inline-block;
+  padding: 0;
+}
+
+.content {
+  text-align: center;
+}
