@@ -31,7 +31,7 @@ nav li {
   padding: 12px;
   color: #bbb;
   text-decoration: none;
-  font-size: 150%;
+  font-size: 125%;
 }
 .active a {
   color: #666;
@@ -42,7 +42,6 @@ a {
   color: #bbb;
 }
 .content {
-  text-align: center;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;

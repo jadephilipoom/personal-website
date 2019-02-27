@@ -22,3 +22,7 @@ img {
   display: inline-block;
   padding: 0;
 }
+
+.content {
+  text-align: center;
+}
