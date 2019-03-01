@@ -1,6 +1,6 @@
 /*GENERAL*/
 body {
-  font-family: helvetica;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #666;
 }
 
@@ -45,4 +45,9 @@ a {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*FOOTER*/
+.footer {
+  text-align: center;
 }
